@@ -1,0 +1,145 @@
+html
+{
+    padding-bottom: 50px;
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+
+body
+{
+  background-color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: white;
+    height: 100%;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+a
+{
+  color: red;
+}
+a:hover
+{
+  color: red;
+  text-decoration-color: red;
+}
+
+
+ol li
+{
+  margin:20px;
+}
+
+.navbar-inverse
+{
+  border-radius: 0;
+  background: rgba(30,0,0,0.8);
+  border-color: rgba(30,0,0,0.8);
+}
+
+.collapse .navbar-collapse .collapsed .navbar-toggle .container-fluid .navbar-default button
+{
+  border-color: rgba(30,0,0,0.8);
+  background: rgba(30,0,0,0.8);
+}
+
+.navbar
+{
+  border-radius: 0;
+  background: rgba(30,0,0,0.8);
+  border-color: rgba(30,0,0,0.8);
+}
+
+.navhead
+{
+  text-align: center;
+  color: #E17B05;
+  font-size: 4em;
+  font-family: "cambria",serif;
+  background: rgba(15,0,0,0.8);
+}
+
+.navheadText
+{
+  text-align: center;
+}
+
+.bodyHeader
+{
+  text-align: center;
+  color: #E17B05;
+  font-size: 2em;
+  font-family: "cambria",serif;
+}
+
+.main
+{
+  padding-top: 40px;
+  background: rgba(15,0,0,0.5);
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 1.25em;
+}
+
+.dead
+{
+  background: rgba(15,0,0,0.5);
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.footer
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%
+  height: 70px;
+  padding-top: 20px;
+  background: rgba(15,0,0,0.5);
+  font-size: 1.25em;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.videoWrapper
+{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pdfContainer
+{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.pdfContainer iframe
+{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
