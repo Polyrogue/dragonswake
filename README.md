@@ -1,4 +1,4 @@
-# dragonswake
+# dragon's wake
 
 This is an example of the web development, done as a personal project in mid 2017 over the course of a week.
 
